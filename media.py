@@ -6,15 +6,15 @@ input("Vamos calcular a media entre duas notas, aperte enter para continuar:...\
 Nota1 = float(input("Fale a primeira nota: ")) #adicionar um dos valores para pode fazer a media
 Nota2 = float(input("Fale a segundanota: ")) #adicionar um outro valor para pode calcular a media
 
-notafinal = (Nota1 + Nota2) /2
+notafinal = (Nota1 + Nota2) /2 #calculo para chegar a media
 
-print ("\nSua nota foi ", notafinal)
+print ("\nSua nota foi ", notafinal)#exibir a media que foi calculada
 
-if notafinal >= 7.0 :
+if notafinal >= 7.0 : #caso a pessoa tenha sido aprovada
     print("\nMeus parabens, você foi aprovado !")
 
 else:
-    falta = notafinal - 7.0
-    print ("\nVocê foi reprovado, é lhe faltaram ", falta," pontos para poder passar.")
+    falta = notafinal - 7.0#caso a pessoa tenha sido reprovada
+    print ("\nVocê foi reprovado, é lhe faltaram ", falta*1," pontos para poder passar.")
 
     
