@@ -15,7 +15,7 @@ if notafinal >= 7.0 : #caso a pessoa tenha sido aprovada
 
 else:
     falta = notafinal - 7.0#caso a pessoa tenha sido reprovada
-    falta1 = falta * (-1)
+    falta1 = falta * (-1)#para poder transforma o numero em possitivo 
     print ("\nVocê foi reprovado, é lhe faltaram ", falta1," pontos para poder passar.")
 
     
