@@ -6,7 +6,7 @@ input("Vamos calcular a media entre duas notas, aperte enter para continuar:...\
 Nota1 = float(input("Fale a primeira nota: ")) #adicionar um dos valores para pode fazer a media
 Nota2 = float(input("Fale a segundanota: ")) #adicionar um outro valor para pode calcular a media
 
-notafinal = Nota1 + Nota2 
+notafinal = Nota1 + Nota2 /2
 
 if notafinal >= 7.0 :
     print("Meus parabens, você foi aprovado !")
